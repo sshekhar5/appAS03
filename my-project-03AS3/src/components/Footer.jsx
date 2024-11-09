@@ -3,7 +3,7 @@ import React, { forwardRef } from "react";
 const Footer = forwardRef((props, ref) => {
   return (
     <footer ref={ref} className="bg-red-500 p-6 text-white text-center space-y-4">
-      <h2 className="text-lg font-bold">PASSENGER PARAMVIR</h2>
+      <h2 className="text-lg font-bold">AMRIT JANU</h2>
       <p>©2023 All rights Reserved.</p>
       <div className="flex justify-center space-x-4">
         <a

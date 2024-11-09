@@ -1,4 +1,5 @@
 import React from "react";
+import amritProfile from '../assets/amritProfile.jpeg';
 
 function Header({ onContactClick }) {
   return (
@@ -6,7 +7,7 @@ function Header({ onContactClick }) {
       <header className="bg-red-500 p-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <img
-            src="https://via.placeholder.com/50"
+            src={amritProfile}
             alt="Logo"
             className="w-12 h-12"
           />

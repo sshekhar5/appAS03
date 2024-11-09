@@ -1,5 +1,5 @@
 import React from 'react'
-import amritProfile from '../../assets/amritProfile.jpeg';
+import amritProfile from '../../assets/amritProfile2.jpeg';
 
 function InitialInfo() {
   return (

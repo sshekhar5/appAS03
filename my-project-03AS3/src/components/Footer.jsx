@@ -8,11 +8,11 @@ const Footer = forwardRef((props, ref) => {
       ref={ref}
       className="bg-red-500 p-6 text-white text-center space-y-4"
     >
-      <h2 className="text-lg font-bold">AMRIT JANU</h2>
-      <p>©2023 All rights Reserved.</p>
+      <h2 className="text-lg font-bold">AMRIT SHARAN</h2>
+      <p>©2025 All rights Reserved.</p>
       <div className="flex justify-center space-x-4">
       <a
-        href="https://youtube.com"
+        href="https://www.youtube.com/@AMRITSHARAN"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -20,7 +20,7 @@ const Footer = forwardRef((props, ref) => {
       </a>
 
       <a
-        href="https://facebook.com"
+        href="https://facebook.com/amritsharan.as"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -28,7 +28,7 @@ const Footer = forwardRef((props, ref) => {
       </a>
 
       <a
-        href="https://instagram.com"
+        href="https://www.instagram.com/amritsharann"
         target="_blank"
         rel="noopener noreferrer"
       >

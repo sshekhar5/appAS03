@@ -1,4 +1,5 @@
 import React from 'react'
+import amritProfile from '../../assets/amritProfile.jpeg';
 
 function InitialInfo() {
   return (
@@ -54,9 +55,10 @@ function InitialInfo() {
         </div>
 
         {/* Image Section */}
+        {/* src="https://via.placeholder.com/300" */}
         <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <img
-            src="https://via.placeholder.com/300"
+           src = {amritProfile}
             alt="Profile"
             className="w-64 h-64 rounded-full object-cover"
           />

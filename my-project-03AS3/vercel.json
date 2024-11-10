@@ -2,19 +2,18 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.html",
+        "src": "dist/index.html",
         "use": "@vercel/static"
       },
       {
-        "src": "src/**/*",
+        "src": "dist/**/*",
         "use": "@vercel/static"
       }
     ],
-    "redirects": [
+    "rewrites": [
       {
         "source": "/:path*",
-        "destination": "/",
-        "permanent": false
+        "destination": "/index.html"
       }
     ]
   }

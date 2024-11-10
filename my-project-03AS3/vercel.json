@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.html",
+        "use": "@vercel/static"
+      },
+      {
+        "src": "src/**/*",
+        "use": "@vercel/static"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/:path*",
+        "destination": "/",
+        "permanent": false
+      }
+    ]
+  }
+  

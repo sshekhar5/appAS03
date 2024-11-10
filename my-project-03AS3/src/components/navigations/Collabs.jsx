@@ -2,7 +2,7 @@ import React from 'react'
 
 function Collabs() {
   return (
-    <div>Collabs</div>
+    <div>Collabs With Amrit</div>
   )
 }
 
